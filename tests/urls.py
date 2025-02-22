@@ -1,6 +1,5 @@
-from django.conf.urls import url, include
-
+from django.urls import path, include
 
 urlpatterns = [
-    url(r'^w1/', include('walletone.urls')),
+    path('w1/', include('walletone.urls')),
 ]
